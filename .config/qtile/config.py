@@ -159,7 +159,7 @@ extension_defaults = widget_defaults.copy()
 
 decor_battery = {
     "decorations": [
-        BorderDecoration(colour=sapphire_color, border_width = [0, 0, 2, 0], padding = 4, padding_y = 0)
+        BorderDecoration(colour=green_color, border_width = [0, 0, 2, 0], padding = 4, padding_y = 0)
     ],
 }
 
@@ -177,7 +177,7 @@ decor_cpu = {
 
 decor_volume = {
     "decorations": [
-        BorderDecoration(colour=green_color, border_width = [0, 0, 2, 0], padding = 4, padding_y = 0)
+        BorderDecoration(colour=sapphire_color, border_width = [0, 0, 2, 0], padding = 4, padding_y = 0)
     ],
 }
 
