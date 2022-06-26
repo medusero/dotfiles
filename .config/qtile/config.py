@@ -227,7 +227,7 @@ screens = [
                     ),
                 
                 widget.CurrentLayout(
-                    foreground = lavender_color,
+                    foreground = rosewater_color,
                     ),
 
                 widget.Sep(
@@ -236,7 +236,7 @@ screens = [
                 
                  widget.WindowCount(                    
                     show_zero = True,
-                    foreground = lavender_color,
+                    foreground = rosewater_color,
                     fmt='{}',
                     ),
 
@@ -245,7 +245,7 @@ screens = [
                     ),
                 
                 widget.WindowName(                    
-                    foreground = lavender_color,
+                    foreground = rosewater_color,
                     empty_group_string = 'Qtile',
                     ),
 
