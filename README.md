@@ -1,2 +1,2 @@
 # Dotfiles
-Estos son mis archivos de configuraci
+Estos son mis archivos de configuración.
