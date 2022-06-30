@@ -209,6 +209,13 @@ screens = [
     Screen(
         top=bar.Bar(
             [
+                widget.Wallpaper(
+                    directory = '~/imágenes/wallpapers/catppuccin',
+                    label = 'i ',
+                    foreground = teal_color,
+                    random_selection = True,
+                    ),
+
                 widget.GroupBox(
                     font = "Ubuntu Nerd Mono Bold",
                     active = red_color,
@@ -310,6 +317,7 @@ screens = [
                     app_key = '4ff4b1e14f471ad530998571ec6d6dc0',
                     cityid = '3128760',
                     foreground = peach_color,
+                    format = '{location_city}: {main_temp}º {icon}',
                     **decor_weather
                     ),
 
@@ -319,6 +327,7 @@ screens = [
                     foreground = mauve_color,
                     **decor_clock
                     ),
+                
             ],
 
             bar_sze, 
