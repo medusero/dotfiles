@@ -1,13 +1,14 @@
-:set encoding=UTF-8
-:set number
-:set relativenumber
-:set autoindent
-:set tabstop=4
-:set shiftwidth=4
-:set smarttab
-:set softtabstop=4
-:set mouse=a
-:set clipboard+=unnamedplus
+set encoding=UTF-8
+set number
+set relativenumber
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set softtabstop=4
+set mouse=a
+set clipboard+=unnamedplus
+set guifont=UbuntuMono\ Nerd\ Font:h7
 
 call plug#begin()
 
@@ -26,6 +27,8 @@ call plug#end()
 let g:catppuccin_flavour = "mocha"
 colorscheme catppuccin
 let g:lightline = {'colorscheme': 'catppuccin'}
+
+let mapleader = ","
 
 let NERDTreeShowHidden=1
 let g:NERDTreeWinPos = "right"
